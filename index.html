@@ -1,0 +1,626 @@
+<!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
+<!--  Last Published: Fri Mar 01 2024 18:03:06 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="65d6e5b6d7403c152ee9ed34" data-wf-site="65d6e5b6d7403c152ee9ed40">
+<head>
+  <meta charset="utf-8">
+  <title>HOMELAB | 為您「實現家」。</title>
+  <meta content="每個故事、每個渴望，無論您有任何想像，Home Lab是您融合夢想的設計「實現室」" name="description">
+  <meta content="HOMELAB | 為您「實現家」。" property="og:title">
+  <meta content="每個故事、每個渴望，無論您有任何想像，Home Lab是您融合夢想的設計「實現室」" property="og:description">
+  <meta content="HOMELAB | 為您「實現家」。" property="twitter:title">
+  <meta content="每個故事、每個渴望，無論您有任何想像，Home Lab是您融合夢想的設計「實現室」" property="twitter:description">
+  <meta property="og:type" content="website">
+  <meta content="summary_large_image" name="twitter:card">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/homelab-3175b9-dfb9ef181fe76e2e7ce192eb.webflow.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon"><!--  [Attributes by Finsweet] CMS Slider  -->
+  <script async="" src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmsslider@1/cmsslider.js"></script>
+</head>
+<body>
+  <div class="page-wrapper">
+    <div class="global-styles w-embed">
+      <style>
+/* Make text look crisper and more legible in all browsers */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+/* Focus state style for keyboard navigation for the focusable elements */
+*[tabindex]:focus-visible,
+  input[type="file"]:focus-visible {
+   outline: 0.125rem solid #4d65ff;
+   outline-offset: 0.125rem;
+}
+/* Get rid of top margin on first element in any rich text element */
+.w-richtext > :not(div):first-child, .w-richtext > div:first-child > :first-child {
+  margin-top: 0 !important;
+}
+/* Get rid of bottom margin on last element in any rich text element */
+.w-richtext>:last-child, .w-richtext ol li:last-child, .w-richtext ul li:last-child {
+	margin-bottom: 0 !important;
+}
+/* Prevent all click and hover interaction with an element */
+.pointer-events-off {
+	pointer-events: none;
+}
+/* Enables all click and hover interaction with an element */
+.pointer-events-on {
+  pointer-events: auto;
+}
+/* Create a class of .div-square which maintains a 1:1 dimension of a div */
+.div-square::after {
+	content: "";
+	display: block;
+	padding-bottom: 100%;
+}
+/* Make sure containers never lose their center alignment */
+.container-medium,.container-small, .container-large {
+	margin-right: auto !important;
+  margin-left: auto !important;
+}
+/* 
+Make the following elements inherit typography styles from the parent and not have hardcoded values. 
+Important: You will not be able to style for example "All Links" in Designer with this CSS applied.
+Uncomment this CSS to use it in the project. Leave this message for future hand-off.
+*/
+/*
+a,
+.w-input,
+.w-select,
+.w-tab-link,
+.w-nav-link,
+.w-dropdown-btn,
+.w-dropdown-toggle,
+.w-dropdown-link {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: inherit;
+}
+*/
+/* Apply "..." after 3 lines of text */
+.text-style-3lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+/* Apply "..." after 2 lines of text */
+.text-style-2lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+/* Adds inline flex display */
+.display-inlineflex {
+  display: inline-flex;
+}
+/* These classes are never overwritten */
+.hide {
+  display: none !important;
+}
+@media screen and (max-width: 991px) {
+    .hide, .hide-tablet {
+        display: none !important;
+    }
+}
+  @media screen and (max-width: 767px) {
+    .hide-mobile-landscape{
+      display: none !important;
+    }
+}
+  @media screen and (max-width: 479px) {
+    .hide-mobile{
+      display: none !important;
+    }
+}
+.margin-0 {
+  margin: 0rem !important;
+}
+.padding-0 {
+  padding: 0rem !important;
+}
+.spacing-clean {
+padding: 0rem !important;
+margin: 0rem !important;
+}
+.margin-top {
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-top {
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+.margin-right {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-right {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+.margin-bottom {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-bottom {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+.margin-left {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+.padding-left {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+.margin-horizontal {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+.padding-horizontal {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+.margin-vertical {
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-vertical {
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+  html { font-size: calc(0.625rem + 0.41666666666666663vw); }
+  @media screen and (max-width:1920px) { html { font-size: calc(0.625rem + 0.41666666666666674vw); } }
+  @media screen and (max-width:1440px) { html { font-size: calc(0.8126951092611863rem + 0.20811654526534862vw); } }
+  @media screen and (max-width:479px) { html { font-size: calc(0.7494769874476988rem + 0.8368200836820083vw); } }
+</style>
+    </div>
+    <div data-animation="default" class="navbar_component w-nav" data-easing2="ease" fs-scrolldisable-element="smart-nav" data-easing="ease" data-collapse="medium" data-w-id="a834c6d0-ef1c-1a7a-8019-c0c33106bbf4" role="banner" data-duration="400">
+      <div class="navbar_container">
+        <nav role="navigation" id="w-node-a834c6d0-ef1c-1a7a-8019-c0c33106bbf6-3106bbf4" class="navbar_left-group w-nav-menu">
+          <a href="services.html" class="navbar_link w-nav-link">我們的服務</a>
+          <a href="about-us.html" class="navbar_link w-nav-link">關於我們</a>
+        </nav>
+        <a href="index.html" id="w-node-a834c6d0-ef1c-1a7a-8019-c0c33106bbfb-3106bbf4" aria-current="page" class="navbar_logo-link w-nav-brand w--current"><img src="images/Layer-2.png" loading="lazy" alt="" class="navbar1_logo"></a>
+        <nav role="navigation" id="w-node-a834c6d0-ef1c-1a7a-8019-c0c33106bbfd-3106bbf4" class="navbar_menu w-nav-menu">
+          <a href="portfolio.html" class="navbar_link hide-desktop w-nav-link">Home</a>
+          <a href="portfolio.html" class="navbar_link hide-desktop w-nav-link">Services</a>
+          <a href="portfolio.html" class="navbar_link hide-desktop w-nav-link">Studio</a>
+          <a href="portfolio.html" class="navbar_link w-nav-link">作品集</a>
+          <a href="contact-us.html" class="navbar_link w-nav-link">聯絡我們</a>
+        </nav>
+        <div id="w-node-a834c6d0-ef1c-1a7a-8019-c0c33106bc02-3106bbf4" class="navbar_menu-button w-nav-button">
+          <div class="menu-icon1">
+            <div class="menu-icon1_line-top"></div>
+            <div class="menu-icon1_line-middle">
+              <div class="menu-icon_line-middle-inner"></div>
+            </div>
+            <div class="menu-icon1_line-bottom"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main class="main-wrapper">
+      <section data-w-id="308c08f6-6df7-acda-2d47-a0aae186c2f0" class="section_home-hero">
+        <div class="home-hero_component">
+          <div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="home-hero_heading-mover">
+            <h1 class="heading-style-home-h1">HOMELAB</h1>
+            <h2 class="heading-style-home-h1">HOMELAB</h2>
+            <h2 class="heading-style-home-h1">HOMELAB</h2>
+            <h2 class="heading-style-home-h1">HOMELAB</h2>
+          </div>
+        </div>
+        <div class="padding-global is-home-hero">
+          <div class="container-xlarge">
+            <div class="home-hero_footer">
+              <div class="overflow-hidden">
+                <div id="w-node-_2028a459-2442-fbff-f076-15af06cfd397-2ee9ed34" style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="home-hero_scroll-wrapper">
+                  <div class="home-hero_scroll-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M6.15833 0.0206491L5.96555 11.0338L6.59107 11.0438C6.72332 10.3341 7.10363 9.68514 7.67272 9.19795L9.87197 7.2181L10.7536 8.06908L5.27612 13L0 7.90686L0.912934 7.085L2.96996 9.07066C3.55818 9.58088 3.93111 10.2705 4.02141 11.0147L4.674 11.0253L4.88028 0L6.15833 0.0206491Z" fill="#E9E8E3"></path>
+                    </svg></div>
+                  <div class="text-size-regular">什麽為之一個家？ </div>
+                </div>
+              </div>
+              <div id="w-node-_5bae0812-c1d8-088b-5913-5bd55a54cb3e-2ee9ed34" class="home-hero_content-wrapper">
+                <div class="overflow-hidden">
+                  <p data-w-id="dced08b4-3473-56a5-8b4f-b7a58debc254" style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0">家，是融合您夢想的空間。</p>
+                </div>
+                <div class="spacer-medium"></div>
+                <div class="overflow-hidden">
+                  <a href="#learn-more" data-w-id="372585bf-0d10-5d0f-10cf-15e5e1efbe41" class="button on-dark w-inline-block">
+                    <div class="button-icon-wrapper">
+                      <div class="button-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1 1L8 8M8 8L8 1M8 8L1 8" stroke="currentColor" stroke-linecap="square"></path>
+                        </svg></div>
+                    </div>
+                    <div class="text-size-tiny">了解更多</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="learn-more" data-w-id="743dd990-a5f1-c996-2def-31de305b3b2d" class="section_intro"><img src="images/Layer-3.svg" loading="lazy" style="-webkit-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="" class="intro_background-logo">
+        <div class="padding-global is-about">
+          <div class="container-large">
+            <div class="padding-section-large">
+              <div class="intro_component">
+                <div id="w-node-a7c15922-6478-cd34-3503-729f40ce2cfd-2ee9ed34" class="info_let-content">
+                  <div class="overflow-hidden">
+                    <h2 style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="heading-style-h2 text-weight-medium">細心聆聽，繼而實現，<br>為您「實現家」。</h2>
+                  </div>
+                </div>
+                <div id="w-node-b4218d89-1d20-b2dd-23b5-88c9041aacac-2ee9ed34" class="info_right-content">
+                  <div class="overflow-hidden">
+                    <p data-w-id="6a046385-5716-f41b-cfb5-3409df138564" style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0">每個故事、每個渴望，無論您有任何想像，Home Lab是您融合夢想的設計「實現室」- 由超過30年裝修及設計經驗團隊親自施工，不斷在世界各地搜羅並引入性價比最高的物料和家具。讓您先挑選心儀物料及風格，再透過設計及規劃為您家中每個角落注入專屬您的夢想元素。</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section data-w-id="3ca9ac46-be09-232e-4780-a54b28fc4859" class="section_loop">
+        <div class="section_loop-mover">
+          <div class="loop_text">We listen, we implement, we are Design-entist.</div>
+          <div class="loop_text">We listen, we implement, we are Design-entist.</div>
+          <div class="loop_text">We listen, we implement, we are Design-entist.</div>
+        </div>
+      </section>
+      <div class="divider-space"></div>
+      <section class="section_services">
+        <div class="padding-global">
+          <div class="container-xlarge">
+            <div class="padding-bottom padding-xhuge">
+              <div data-w-id="a0c216ec-1d44-ba9a-411a-16218e2982c6" class="services_component">
+                <div class="overflow-hidden">
+                  <div id="w-node-_7de23d07-67dc-da60-3461-a71458ecf43b-2ee9ed34" style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="section-header">
+                    <div class="header_circle"></div>
+                    <h2 class="heading-style-h6">Homelab 服務方案</h2>
+                  </div>
+                </div>
+                <div id="w-node-a1fd3281-0538-2a2a-c622-f48b46f4fda3-2ee9ed34" class="services_right-content">
+                  <div class="services_list-wrapper w-dyn-list">
+                    <div role="list" class="services_list-item w-dyn-items">
+                      <div role="listitem" class="services_item w-dyn-item">
+                        <div class="overflow-hidden">
+                          <a href="#" class="services_item-link w-inline-block">
+                            <div class="services_background-wrapper"><img loading="lazy" src="" alt="" class="services_background-image w-dyn-bind-empty">
+                              <div class="services_content-wrapper"><img loading="lazy" src="" alt="" class="services_content-image w-dyn-bind-empty">
+                                <div class="services_content-overlay"></div>
+                                <div class="services_content">
+                                  <div class="w-dyn-bind-empty"></div>
+                                  <h3 class="heading-style-h3 text-weight-medium w-dyn-bind-empty"></h3>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="services_cover-interaction"></div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="w-dyn-empty">
+                      <div>No items found.</div>
+                    </div>
+                  </div>
+                  <div class="spacer-xlarge"></div>
+                  <div class="button-group">
+                    <a href="services.html" class="button is-secondary w-inline-block">
+                      <div class="button-icon-wrapper is-secondary">
+                        <div class="button-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1L8 8M8 8L8 1M8 8L1 8" stroke="currentColor" stroke-linecap="square"></path>
+                          </svg></div>
+                      </div>
+                      <div class="text-size-tiny">查看全部</div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section data-w-id="84dceac1-0f00-dc0f-bdaf-1066609dfa97" class="section_projects">
+        <div class="padding-global">
+          <div class="container-xlarge">
+            <div class="padding-top padding-xhuge">
+              <div class="max-width-medium">
+                <div class="overflow-hidden">
+                  <h2 style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="heading-style-h2 text-weight-medium">探索我們的室內設計作品集</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="projects_list-wrapper w-dyn-list">
+          <div role="list" class="projects_list w-dyn-items">
+            <div data-w-id="06b77a59-ccf6-9264-5692-96724331b66d" role="listitem" class="projects_item w-dyn-item">
+              <div class="projects_item-list">
+                <div class="projects_item is-top">
+                  <div data-w-id="8cef320b-532f-0bc9-59b3-f09c1d1ebeaf" class="projects_accordion-top">
+                    <div class="padding-global is-accordion">
+                      <div class="container-xlarge">
+                        <div class="projects_item-container">
+                          <div class="projects_item-header">
+                            <div class="overflow-hidden">
+                              <div id="w-node-_1c22caf5-0c89-d6fb-afc5-71a89d8c461b-2ee9ed34" class="section-header hide-mobile-landscape">
+                                <div class="header_circle is-stroke"></div>
+                                <h3 class="heading-style-h6 w-dyn-bind-empty"></h3>
+                              </div>
+                            </div>
+                            <div class="overflow-hidden">
+                              <h4 id="w-node-_746f5dcb-8557-b70f-4338-c0cfea889b77-2ee9ed34" class="heading-style-h4 w-dyn-bind-empty"></h4>
+                            </div>
+                            <div class="overflow-hidden">
+                              <a id="w-node-_26927949-abec-2598-7a92-3f7cdfa540c4-2ee9ed34" href="#" class="text-style-link hide-tablet">查看項目</a>
+                            </div>
+                            <div class="overflow-hidden">
+                              <div id="w-node-_9e8bc72f-8b0c-02d8-d546-ec9fd1e00a1a-2ee9ed34" class="text-style-link text-style-muted">查看詳情</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="projects_hover-wrapper pointer-events-off">
+                      <div class="projects_hover-image-wrapper">
+                        <div class="image-wrapper-3x2 is-table-shape"><img alt="" loading="lazy" src="" class="image-cover w-dyn-bind-empty">
+                          <div class="projects_hover-overlay"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="height:0px" class="projects_accordion-bottom">
+                    <div class="padding-global is-accordion">
+                      <div class="container-xlarge">
+                        <div class="projects_accordion-content">
+                          <div class="projects_image-group">
+                            <div id="w-node-c50188bb-f3d0-d68e-918d-4a9098b7adf3-2ee9ed34" class="projects_image-wrapper"><img loading="lazy" id="w-node-d7bd8bee-6380-759e-59cb-2295eed3b7aa-2ee9ed34" src="" alt="" class="image-cover w-dyn-bind-empty"></div>
+                            <div id="w-node-_8146789a-cdc2-f6d3-abed-7301eb2e222c-2ee9ed34" class="projects_image-wrapper"><img loading="lazy" id="w-node-_8146789a-cdc2-f6d3-abed-7301eb2e222d-2ee9ed34" src="" alt="" class="image-cover w-dyn-bind-empty"></div>
+                          </div>
+                        </div>
+                        <div class="spacer-xlarge"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-dyn-empty">
+            <div>No items found.</div>
+          </div>
+        </div>
+      </section>
+      <section data-w-id="586495bd-5725-2248-a076-2c921c51807f" class="section_cta"><img src="images/cta-image.jpg" loading="lazy" sizes="100vw" srcset="images/cta-image-p-500.jpg 500w, images/cta-image-p-800.jpg 800w, images/cta-image-p-1080.jpg 1080w, images/cta-image-p-1600.jpg 1600w, images/cta-image-p-2000.jpg 2000w, images/cta-image.jpg 2880w" alt="" class="image-cover">
+        <div class="cta_background-overlay"></div>
+        <div class="cta_header">
+          <div class="padding-global">
+            <div class="container-xlarge">
+              <div class="overflow-hidden">
+                <div class="section-header">
+                  <div class="header_circle is-white"></div>
+                  <h2 class="heading-style-h6">報價</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cta_content">
+          <div class="padding-global is-cta">
+            <div class="container-xlarge is-cta">
+              <div class="cta_content-wrapper">
+                <div class="max-width-large">
+                  <div class="overflow-hidden">
+                    <h3 class="heading-style-h5">立即向我們詢問報價</h3>
+                  </div>
+                </div>
+                <div class="cta_footer-wrapper">
+                  <div class="cta_social-wrapper">
+                    <div class="overflow-hidden">
+                      <a href="https://www.facebook.com/itshomelab/" target="_blank" class="cta_social-item w-inline-block">
+                        <div class="cta_socials-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.5 5.99902H13.5C12.9477 5.99902 12.5 6.44674 12.5 6.99902V9.99902H16.5C16.6137 9.9965 16.7216 10.0494 16.7892 10.1409C16.8568 10.2324 16.8758 10.351 16.84 10.459L16.1 12.659C16.0318 12.8609 15.8431 12.9974 15.63 12.999H12.5V20.499C12.5 20.7751 12.2761 20.999 12 20.999H9.5C9.22386 20.999 9 20.7751 9 20.499V12.999H7.5C7.22386 12.999 7 12.7751 7 12.499V10.499C7 10.2229 7.22386 9.99902 7.5 9.99902H9V6.99902C9 4.78988 10.7909 2.99902 13 2.99902H16.5C16.7761 2.99902 17 3.22288 17 3.49902V5.49902C17 5.77516 16.7761 5.99902 16.5 5.99902Z" fill="currentColor"></path>
+                          </svg></div>
+                        <div>Facebook</div>
+                      </a>
+                    </div>
+                    <div class="overflow-hidden">
+                      <a href="https://www.instagram.com/itshomelab/" target="_blank" class="cta_social-item w-inline-block">
+                        <div class="footer_socials-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M16 2.99902H8C5.23858 2.99902 3 5.2376 3 7.99902V15.999C3 18.7604 5.23858 20.999 8 20.999H16C18.7614 20.999 21 18.7604 21 15.999V7.99902C21 5.2376 18.7614 2.99902 16 2.99902ZM19.25 15.999C19.2445 17.7916 17.7926 19.2435 16 19.249H8C6.20735 19.2435 4.75549 17.7916 4.75 15.999V7.99902C4.75549 6.20637 6.20735 4.75451 8 4.74902H16C17.7926 4.75451 19.2445 6.20637 19.25 7.99902V15.999ZM16.75 8.24902C17.3023 8.24902 17.75 7.8013 17.75 7.24902C17.75 6.69674 17.3023 6.24902 16.75 6.24902C16.1977 6.24902 15.75 6.69674 15.75 7.24902C15.75 7.8013 16.1977 8.24902 16.75 8.24902ZM12 7.49902C9.51472 7.49902 7.5 9.51374 7.5 11.999C7.5 14.4843 9.51472 16.499 12 16.499C14.4853 16.499 16.5 14.4843 16.5 11.999C16.5027 10.8047 16.0294 9.65859 15.1849 8.8141C14.3404 7.96961 13.1943 7.49636 12 7.49902ZM9.25 11.999C9.25 13.5178 10.4812 14.749 12 14.749C13.5188 14.749 14.75 13.5178 14.75 11.999C14.75 10.4802 13.5188 9.24902 12 9.24902C10.4812 9.24902 9.25 10.4802 9.25 11.999Z" fill="currentColor"></path>
+                          </svg></div>
+                        <div>Instagram</div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="overflow-hidden">
+                    <a href="contact-us.html" class="button on-dark w-inline-block">
+                      <div class="button-icon-wrapper">
+                        <div class="button-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1L8 8M8 8L8 1M8 8L1 8" stroke="currentColor" stroke-linecap="square"></path>
+                          </svg></div>
+                      </div>
+                      <div class="text-size-tiny">聯絡我們</div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section data-w-id="8703393d-49eb-057e-1eee-d58f368ac0c8" class="section_portfolio">
+        <div class="padding-global">
+          <div class="container-xlarge">
+            <div class="padding-top padding-xhuge">
+              <div class="max-width-medium">
+                <div class="overflow-hidden">
+                  <h2 class="heading-style-h2 text-weight-medium">探索我們已完成的室內設計項目</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio_item-list">
+          <div class="padding-global is-accordion">
+            <div class="container-xlarge">
+              <div class="portfolio_content">
+                <div class="overflow-hidden">
+                  <div id="w-node-_8703393d-49eb-057e-1eee-d58f368ac0d3-368ac0c8" class="section-header">
+                    <div class="header_circle"></div>
+                    <h3 class="heading-style-h6">其他項目</h3>
+                  </div>
+                </div>
+                <div data-delay="4000" data-animation="slide" class="portfolio_slider w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true" fs-cmsslider-element="slider" id="w-node-_8703393d-49eb-057e-1eee-d58f368ac0d7-368ac0c8">
+                  <div class="portfolio_slider-mask w-slider-mask">
+                    <div class="portfolio_slide w-slide">
+                      <div class="portfolio_slide-content">
+                        <div class="portfolio_image-wrapper"><img src="images/645ba77d-fac3-4b08-92ff-de83dc8fece7.jpg" loading="lazy" id="w-node-_8703393d-49eb-057e-1eee-d58f368ac0dc-368ac0c8" sizes="(max-width: 479px) 73vw, (max-width: 767px) 76vw, (max-width: 991px) 36vw, 26vw" alt="" srcset="images/645ba77d-fac3-4b08-92ff-de83dc8fece7-p-500.jpg 500w, images/645ba77d-fac3-4b08-92ff-de83dc8fece7.jpg 800w" class="image-cover">
+                          <div class="services_cover-interaction"></div>
+                        </div>
+                        <div class="portfolio_title-wrapper">
+                          <h4 class="text-size-regular text-weight-medium">Project title here</h4>
+                          <div class="portfolio_title-details">
+                            <div class="text-style-muted">Minimalism</div>
+                            <div class="text-style-muted">|</div>
+                            <div class="text-style-muted">500 m2</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="portfolio_arrow is-left w-slider-arrow-left">
+                    <div class="portfolio_arrow-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4.241 0.896544L4.8652 1.63754L1.67256 5.49454L20 5.49454L20 6.53152L1.64507 6.53152L4.85937 10.3625L4.26351 11.1035L4.44982e-07 6.01352L4.241 0.896544Z" fill="currentColor"></path>
+                      </svg></div>
+                  </div>
+                  <div class="portfolio_arrow w-slider-arrow-right">
+                    <div class="portfolio_arrow-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.759 11.1035L15.1348 10.3625L18.3274 6.50546H0V5.46848H18.3549L15.1406 1.63748L15.7365 0.896484L20 5.98648L15.759 11.1035Z" fill="currentColor"></path>
+                      </svg></div>
+                  </div>
+                  <div class="hide w-slider-nav w-round w-num"></div>
+                </div>
+                <div id="w-node-_8703393d-49eb-057e-1eee-d58f368ac0ec-368ac0c8" class="hide w-dyn-list">
+                  <div fs-cmsslider-element="list" role="list" class="w-dyn-items">
+                    <div role="listitem" class="w-dyn-item">
+                      <a data-w-id="8703393d-49eb-057e-1eee-d58f368ac0ef" href="#" class="portfolio_slide-content w-inline-block">
+                        <div class="portfolio_image-wrapper"><img src="images/645ba77d-fac3-4b08-92ff-de83dc8fece7.jpg" loading="lazy" id="w-node-_8703393d-49eb-057e-1eee-d58f368ac0f1-368ac0c8" sizes="100vw" alt="" srcset="images/645ba77d-fac3-4b08-92ff-de83dc8fece7-p-500.jpg 500w, images/645ba77d-fac3-4b08-92ff-de83dc8fece7.jpg 800w" class="image-cover">
+                          <div class="services_cover-interaction"></div>
+                        </div>
+                        <div class="portfolio_title-wrapper">
+                          <div class="overflow-hidden">
+                            <h4 class="text-size-regular text-weight-medium w-dyn-bind-empty"></h4>
+                          </div>
+                          <div class="overflow-hidden">
+                            <div class="portfolio_title-details">
+                              <div class="text-style-muted w-dyn-bind-empty"></div>
+                              <div class="text-style-muted">|</div>
+                              <div class="text-style-muted w-dyn-bind-empty"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="w-dyn-empty">
+                    <div>No items found.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer data-w-id="7c20eb64-b9e4-9368-7e75-abe2802b73f4" class="footer_component">
+      <div class="padding-global">
+        <div class="container-xlarge">
+          <div class="padding-vertical padding-xxlarge">
+            <div class="padding-bottom padding-xxlarge">
+              <div class="footer_top-wrapper">
+                <a href="index.html" id="w-node-_7c20eb64-b9e4-9368-7e75-abe2802b73fa-802b73f4" aria-current="page" class="footer_logo-link w-nav-brand w--current">
+                  <div class="overflow-hidden"><img src="images/Logo-HL.svg" loading="lazy" alt="" class="footer_logo"></div>
+                </a>
+                <div class="w-layout-grid footer_link-list">
+                  <div class="overflow-hidden">
+                    <a href="index.html" aria-current="page" class="footer_link w--current">首頁</a>
+                  </div>
+                  <div class="overflow-hidden">
+                    <a href="services.html" class="footer_link">我們的服務</a>
+                  </div>
+                  <div class="overflow-hidden">
+                    <a href="about-us.html" class="footer_link">關於我們</a>
+                  </div>
+                  <div class="overflow-hidden">
+                    <a href="portfolio.html" class="footer_link">我們的項目</a>
+                  </div>
+                  <div class="overflow-hidden">
+                    <a href="contact-us.html" class="footer_link">聯絡我們</a>
+                  </div>
+                </div>
+                <div class="footer_socials-group">
+                  <div class="overflow-hidden">
+                    <a href="https://www.facebook.com/itshomelab/" target="_blank" class="footer_socials-link w-inline-block">
+                      <div class="footer_socials-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M16.5 5.99902H13.5C12.9477 5.99902 12.5 6.44674 12.5 6.99902V9.99902H16.5C16.6137 9.9965 16.7216 10.0494 16.7892 10.1409C16.8568 10.2324 16.8758 10.351 16.84 10.459L16.1 12.659C16.0318 12.8609 15.8431 12.9974 15.63 12.999H12.5V20.499C12.5 20.7751 12.2761 20.999 12 20.999H9.5C9.22386 20.999 9 20.7751 9 20.499V12.999H7.5C7.22386 12.999 7 12.7751 7 12.499V10.499C7 10.2229 7.22386 9.99902 7.5 9.99902H9V6.99902C9 4.78988 10.7909 2.99902 13 2.99902H16.5C16.7761 2.99902 17 3.22288 17 3.49902V5.49902C17 5.77516 16.7761 5.99902 16.5 5.99902Z" fill="currentColor"></path>
+                        </svg></div>
+                    </a>
+                  </div>
+                  <div class="overflow-hidden">
+                    <a href="https://www.instagram.com/itshomelab/" target="_blank" class="footer_socials-link w-inline-block">
+                      <div class="footer_socials-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M16 2.99902H8C5.23858 2.99902 3 5.2376 3 7.99902V15.999C3 18.7604 5.23858 20.999 8 20.999H16C18.7614 20.999 21 18.7604 21 15.999V7.99902C21 5.2376 18.7614 2.99902 16 2.99902ZM19.25 15.999C19.2445 17.7916 17.7926 19.2435 16 19.249H8C6.20735 19.2435 4.75549 17.7916 4.75 15.999V7.99902C4.75549 6.20637 6.20735 4.75451 8 4.74902H16C17.7926 4.75451 19.2445 6.20637 19.25 7.99902V15.999ZM16.75 8.24902C17.3023 8.24902 17.75 7.8013 17.75 7.24902C17.75 6.69674 17.3023 6.24902 16.75 6.24902C16.1977 6.24902 15.75 6.69674 15.75 7.24902C15.75 7.8013 16.1977 8.24902 16.75 8.24902ZM12 7.49902C9.51472 7.49902 7.5 9.51374 7.5 11.999C7.5 14.4843 9.51472 16.499 12 16.499C14.4853 16.499 16.5 14.4843 16.5 11.999C16.5027 10.8047 16.0294 9.65859 15.1849 8.8141C14.3404 7.96961 13.1943 7.49636 12 7.49902ZM9.25 11.999C9.25 13.5178 10.4812 14.749 12 14.749C13.5188 14.749 14.75 13.5178 14.75 11.999C14.75 10.4802 13.5188 9.24902 12 9.24902C10.4812 9.24902 9.25 10.4802 9.25 11.999Z" fill="currentColor"></path>
+                        </svg></div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="line-divider"></div>
+            <div class="padding-top padding-medium">
+              <div class="footer_bottom-wrapper">
+                <div class="overflow-hidden">
+                  <div class="footer_credit-text">© <span id="year">2024</span> Homelab Interior Design</div>
+                  <div class="hide w-embed w-script">
+                    <script>document.querySelector('#year').innerText = new Date().getFullYear();</script>
+                  </div>
+                </div>
+                <div class="w-layout-grid footer_legal-list hide">
+                  <div class="overflow-hidden">
+                    <a href="#" class="footer_legal-link"><strong>隱私政策</strong></a>
+                  </div>
+                  <div class="overflow-hidden">
+                    <a href="#" class="footer_legal-link"><strong>服務條款</strong></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=65d6e5b6d7403c152ee9ed40" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+</body>
+</html>
